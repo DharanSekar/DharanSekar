@@ -1,0 +1,18 @@
+package Sam_1.Sam;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class samm {
+	
+	public static void main(String[] args) {
+		
+		
+		WebDriver driver = new ChromeDriver();
+		System.setProperty("WebDriver.Chrome.Driver", "C:\\Users\\Admin\\eclipse-workspace\\Sam\\Chrome_Driver\\chromedriver.exe");
+		driver.get("www.google.co.in");
+		
+	}
+	
+
+}
